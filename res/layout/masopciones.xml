@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <SlidingDrawer
+        android:id="@id/sd_masopciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:content="@id/hsv_sdmasopciones_contenido"
+        android:handle="@id/imgv_masopciones" >
+
+        <LinearLayout
+            android:id="@id/rl_masopciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@id/imgv_masopciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btnmas" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@id/hsv_sdmasopciones_contenido"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:background="#000"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@id/ll_hsv_contenido"
+                android:layout_width="wrap_content"
+                android:layout_height="50.0dip"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@id/img_contenido_hsv_ll_contenido1"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/androidninja"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@id/img_contenido_hsv_ll_contenido2"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/androidninja"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@id/img_contenido_hsv_ll_contenido3"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/androidninja"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </SlidingDrawer>
+
+</LinearLayout>

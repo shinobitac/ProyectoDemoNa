@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@id/rl_header_contenido"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/degradado_header" >
+
+        <ImageView
+            android:id="@id/imgv_header_slidershow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@id/imgv_header_menushow"
+            android:layout_marginLeft="10dp"
+            android:onClick="showSlider"
+            android:src="@drawable/btnslider" />
+
+        <ImageView
+            android:id="@id/imgv_header_logotipo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/yapplive" />
+
+        <ImageView
+            android:id="@id/imgv_header_menushow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@id/imgv_header_logotipo"
+            android:layout_marginLeft="42dp"
+            android:layout_toRightOf="@id/imgv_header_logotipo"
+            android:onClick="showMenus"
+            android:src="@android:drawable/ic_dialog_dialer" />
+
+        <ImageView
+            android:id="@id/imgv_header_searchshow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@id/imgv_header_menushow"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imgv_header_menushow"
+            android:src="@android:drawable/ic_search_category_default" />
+
+        
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/tv_header_franjanaranja"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/rl_header_contenido"
+        android:background="#ffff9800" />
+
+</RelativeLayout>

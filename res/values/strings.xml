@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoDemoNa</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_iniciasesion">Inicia Sesión</string>
+    <string name="login_con">con</string>
+    <string name="login_facebook">facebook</string>
+    <string name="login_twitter">twitter</string>
+    <string name="login_entrarsinregistro">Entrar sin registro ></string>
+    <string name="title_activity_listar_noticias">ListarNoticias</string>
+    <string name="title_activity_populares">Populares</string>
+    <string name="title_activity_recomendaciones">Recomendaciones</string>
+</resources>

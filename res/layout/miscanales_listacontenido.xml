@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ThedegradadoGris"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@id/img_principal_contenido_miscanales_imagencontenido"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/android_jb"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@id/tv_principal_contenido_miscanales_titulocontenido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_principal_contenido_miscanales_titulocontenido"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/img_principal_contenido_miscanales_imagencontenido"
+        android:text="Titulo"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@id/tv_principal_contenido_miscanales_noticiacontenido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_principal_contenido_miscanales_titulocontenido"
+        android:layout_below="@id/tv_principal_contenido_miscanales_titulocontenido"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@id/img_principal_contenido_miscanales_imagencontenido"
+        android:text="Noticia"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/tv_principal_contenido_miscanales_nulo"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/img_principal_contenido_miscanales_imagencontenido"
+        android:text="" />
+
+</RelativeLayout>

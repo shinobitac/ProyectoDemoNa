@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@id/imgv_login_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/loginbg" />
+
+    <Button
+        android:id="@id/btn_login_facebookLogin"
+        style="@style/ThefacebookButton"
+        android:layout_width="150.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/facebook50"
+        android:ellipsize="start"
+        android:text="@string/login_iniciasesion" />
+
+    <Button
+        android:id="@id/btn_login_twitterLogin"
+        style="@style/ThetwitterButton"
+        android:layout_width="150.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_login_facebookLogin"
+        android:layout_below="@id/btn_login_facebookLogin"
+        android:layout_marginTop="30.0dip"
+        android:drawableLeft="@drawable/twitter40"
+        android:ellipsize="start"
+        android:text="@string/login_iniciasesion" />
+
+    <TextView
+        android:id="@id/tv_login_entrarsinregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login_twitterLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32.0dip"
+        android:text="@string/login_entrarsinregistro"
+        android:textColor="#ff0261ba"
+        android:textStyle="bold" />
+
+</RelativeLayout>

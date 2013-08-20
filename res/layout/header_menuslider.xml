@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rl_header_contenido"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="#ffffffff" >
+
+        <ImageView
+            android:id="@+id/imgv_header_menuslider_menuimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/user" />
+
+        <TextView
+            android:id="@+id/tv_header_menuslider_menutext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imgv_header_menuslider_menuimg"
+            android:text="Juan Perez"
+            android:textColor="#ff606060"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_header_menuslider_next"
+            style="@style/ThegrayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:text="Desconectar" />
+
+        <TextView
+            android:id="@+id/tv_header_menuslider_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff808080" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_header_contenido_todosloscanales"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rl_header_contenido"
+        android:background="@drawable/degradado_gris" >
+
+        <TextView
+            android:id="@+id/tv_header_contenido_todosloscanales_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Todos los canales"
+            android:textColor="#ff484848"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_header_contenido_todosloscanales_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffb8b8b8" />
+    </RelativeLayout>
+
+</RelativeLayout>

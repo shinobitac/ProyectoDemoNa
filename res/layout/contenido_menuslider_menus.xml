@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_contenido_menuslider_menus_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/degradado_gris" >
+
+    <ImageView
+        android:id="@id/imgv_contenido_menuslider_menus_menuimg"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@id/tv_contenido_menuslider_menus_menutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/imgv_contenido_menuslider_menus_menuimg"
+        android:text="Data"
+        android:textColor="#ff606060"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@id/imgv_contenido_menuslider_menus_next"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/starfill"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@id/tv_contenido_menuslider_menus_linea"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/imgv_contenido_menuslider_menus_next" />
+
+    <TextView
+        android:id="@id/tv_contenido_menuslider_menus_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff808080" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+
+    <style name="facebookButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:height">40dp</item>
+    </style>
+
+    <style name="ThefacebookButton" parent="@style/facebookButton">
+        <item name="android:background">@drawable/facebook_button</item>
+    </style>
+
+    <style name="twitterButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:height">40dp</item>
+    </style>
+
+    <style name="ThetwitterButton" parent="@style/twitterButton">
+        <item name="android:background">@drawable/twitter_button</item>
+    </style>
+
+    <style name="ThedegradadoGris">
+        <item name="android:background">@drawable/degradado_gris</item>
+    </style>
+
+    <style name="grayButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff404040</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:height">30dp</item>
+    </style>
+
+    <style name="ThegrayButton" parent="@style/grayButton">
+        <item name="android:background">@drawable/gray_button</item>
+    </style>
+
+</resources>

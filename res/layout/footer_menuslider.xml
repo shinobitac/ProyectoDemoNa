@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@id/btn_footer_menuslider_editarcanales"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/lapiz"
+            android:text="Editar Canales"
+            android:textColor="#ff484848" />
+
+        <Button
+            android:id="@id/btn_footer_menuslider_configuracion"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/config"
+            android:text="Configuracion"
+            android:textColor="#ff484848" />
+    </LinearLayout>
+
+</RelativeLayout>
